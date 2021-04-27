@@ -5,12 +5,6 @@ create on 2021-04-22 10:13 上午
 author @guorui
 """
 
-import os
-from datetime import datetime
-from typing import List
-
-from tortoise import Tortoise
-
 from wechaty import Wechaty, Message, Room, Contact
 from service.search import Judge, Search
 import asyncio

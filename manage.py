@@ -4,6 +4,7 @@ create on 2021-04-22 9:48 上午
 
 author @guorui
 """
+import setting
 import asyncio
 
 from bots.less_weight_bot import LessWeightBot
