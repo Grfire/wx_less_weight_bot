@@ -33,7 +33,7 @@ author @guorui
 import os
 
 os.environ.update({'WECHATY_PUPPET_SERVICE_TOKEN': 'puppet_paimon_480e529828599ac61c8f125d99fd6db0'})
-DB ='mysql://root:root@0.0.0.0:3306/weight'
+DB ='mysql://root:root@49.232.145.52:3306/weight'
 TORTOISE_ORM = {
     "connections": {"default": DB},
     "apps": {

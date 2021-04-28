@@ -45,6 +45,21 @@ class Judge:
             return True
         return False
 
+    @staticmethod
+    def is_ask_me(msg):
+        a = re.match('小奈', msg)
+        if a:
+            return True
+        return False
+
+    @staticmethod
+    def is_ask_weather(msg):
+        a = re.search('天气', msg)
+        print(a)
+        if a:
+            return True
+        return False
+
 
 class Search:
     @staticmethod
